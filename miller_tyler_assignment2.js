@@ -14,11 +14,41 @@ var pets = [
 
 var boysName = "Tyler",
 	choices = 5,
-	decision = "one",
+	decision = "dog",
 	one = true
 ;
 
 //Output
 console.log ("A young boy named " + boysName + " wnats a pet.")
+console.log ("He has " + choices + " options, which he could choose from.")
+
+//Procedure
+console.log(boysName + "'s options are " + pets + ".")
+//pets.pop();          //Tyring to add or before dog
+//console.log( pets ); //Tyring to add or before dog
+var whichPet = function (first, second){
 	
-//console.log (pets[4])
+	var pet = first/second;
+	
+	return pet;
+	
+	//console.log("He may only choose " + pet + " animal for his pet." );
+	
+	
+};
+
+console.log(whichPet(5,5));
+
+if (pet = 1) {
+	console.log("He has made his mind up, and it seems he picked a " + decision + ".")}
+	
+	else if (pet > 1) {
+	console.log("No new friend.")
+}
+
+//Boolean Function 
+	
+	
+
+
+
