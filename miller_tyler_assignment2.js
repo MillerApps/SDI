@@ -9,6 +9,16 @@ var pets = [
 	"Bird", 
 	"Spider", 
 	"Mouse", 
-	"Dog"
+	"Dog"   //Final Choice
 ];
 
+var boysName = "Tyler",
+	choices = 5,
+	decision = "one",
+	one = true
+;
+
+//Output
+console.log ("A young boy named " + boysName + " wnats a pet.")
+	
+//console.log (pets[4])
