@@ -91,13 +91,21 @@ console.log(home + " and settled in " + petStore);
 
 
 //Array Function
-var pets = [   // Array
+console.log("Sometime later it was time to pick a name, " + boysName+ " has a few ideas.")
+var names = [   // Array
 	"Tiki", 
 	"Buddy", 
 	"Andy", 
 	"Lucky", 
 	"Spike"   // Final choice
 ];
+
+for (name = 5; name > 0; name--){  //not sure how to use arrays with for loop
+console.log(name + " names left.")
+};
+console.log(names[4] + " Is the name that " + boysName + " choose.")
+
+
 
 		
 
