@@ -4,7 +4,7 @@
 //Description: Arrays, Funchtions, A boy and his dog
 
 //Set Variables
-var pets = [
+var pets = [   // Array
 	"Lizard", 
 	"Bird", 
 	"Spider", 
@@ -47,6 +47,37 @@ if (pet = 1) {
 }
 
 //Boolean Function 
+console.log(boysName + " is happy that he will be getting a " + decision + ".")
+
+var getPet = function(joy, thanks){
+	var j = true, t = true;
+		getPet = j &&((t && j)|| t);
+
+
+if (getPet === true){
+	return "I am very happy! Thank you mom and dad!";
+	} else {
+		return joy, thanks;
+	}
+
+};	
+console.log ("hooray");
+
+//Number Function 
+var dog = function (first, second){
+	
+	var friend = first/second;
+	
+	return friend;
+	
+};	
+
+console.log(dog(1,1));
+console.log( "will be going home today with " + boysName + " to live with him.");
+
+ 
+		
+
 	
 	
 
