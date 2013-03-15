@@ -15,7 +15,8 @@ var pets = [   // Array
 var boysName = "Tyler",
 	choices = 5,
 	decision = "dog",
-	one = true
+	one = true,
+	newFreind = true
 ;
 
 //Output
@@ -47,24 +48,30 @@ if (pet = 1) {
 }
 
 //Boolean Function 
-console.log(boysName + " is happy that he will be getting a " + decision + ".")
-
-var getPet = function(joy, thanks){
-	var j = true, t = true;
-		getPet = j &&((t && j)|| t);
-
-
-if (getPet === true){
-	return "I am very happy! Thank you mom and dad!";
-	} else {
-		return joy, thanks;
-	}
-
-};	
-console.log ("hooray");
+var joy = function(){
+	var yes = "I am very happy! Thank you mom and dad!"
+		no = "But why?"
+		if (one === true && newFreind === true){
+		return(boysName + " is happy that he will be getting a " + decision + ".");
+	} else { return("Why?")}
+	return(one);		
+	
+};
 
 //Number Function 
-var dog = function (first, second){
+console.log (boysName + " and his new freiend are headed home, the ride takes 30 minutes.");
+// While-Loop
+var time = 30
+while (time > 0) {
+	console.log(time + " minutes remain.")
+	time--;
+	
+};
+
+console.log("They have arrived at their home.");
+
+//Original Code 
+/*var dog = function (first, second){
 	
 	var friend = first/second;
 	
@@ -73,9 +80,25 @@ var dog = function (first, second){
 };	
 
 console.log(dog(1,1));
-console.log( "will be going home today with " + boysName + " to live with him.");
+console.log( "will be going home today with " + boysName + " to live with him.");*/
 
- 
+//String Function
+ var home = "Now that they were home",
+ 	 petStore = boysName + " had realized that he forgeot to buy dog toys and food."
+;
+
+console.log(home + " and settled in " + petStore);
+
+
+//Array Function
+var pets = [   // Array
+	"Tiki", 
+	"Buddy", 
+	"Andy", 
+	"Lucky", 
+	"Spike"   // Final choice
+];
+
 		
 
 	
